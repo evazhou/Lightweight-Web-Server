@@ -1,0 +1,39 @@
+.wrap {
+   margin: auto;
+   width: 1180px;
+   overflow: hidden; 
+}
+
+#slides {
+    width: 999999px;
+}
+
+#slides > div {
+    height: 600px;
+    width: 1180px;
+    float: left;
+    margin-right: 200px;
+    text-align: center;
+    
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+ 
+    display: box;
+    box-align: center;
+    box-orient: horizontal;
+    box-pack: center;
+}
+
+h1{
+	font-size: 3em;
+}
+h3 {
+	font-size:2.11em;
+}
+
+ul li {
+	font-size:1.5em;
+}
+
